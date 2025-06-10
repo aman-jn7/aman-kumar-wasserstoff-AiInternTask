@@ -7,7 +7,6 @@ This system allows users to upload multiple documents (PDFs, scanned files), ext
 
 ## 📁 Project Structure
 
-chatbot_theme_identifier/
 - ├── backend/
 - │ ├── app/
 - │ │ ├── api/ # FastAPI routes
