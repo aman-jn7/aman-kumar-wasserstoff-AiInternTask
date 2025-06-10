@@ -1,4 +1,4 @@
-# 🧠 Wasserstoff Gen-AI Document Research & Theme Identification Chatbot
+# Wasserstoff Gen-AI Document Research & Theme Identification Chatbot
 
 A web-based chatbot application built as part of the Wasserstoff Gen-AI Internship Task.  
 This system allows users to upload multiple documents (PDFs, scanned files), extract information, and get AI-generated answers and synthesized themes based on document content.
@@ -13,11 +13,11 @@ chatbot_theme_identifier/
 - │ │ ├── api/ # FastAPI routes
 - │ │ ├── core/ # FAISS vector search logic
 - │ │ ├── services/ # OCR & LLM query handling
-- │ │ └── main.py # FastAPI app entry point
-- │ ├── .env # API keys (excluded from Git)
+- │ │ └── main.py
+- │ ├── .env (excluded from Git)
 - │ └── requirements.txt
 - ├── frontend/
-- │ └── streamlit_app.py # Streamlit UI
+- │ └── streamlit_app.py
 - ├── README.md
 
 ## 🚀 Features
@@ -43,7 +43,7 @@ chatbot_theme_identifier/
 | Backend    | FastAPI (Python)       |
 | Frontend   | Streamlit              |
 | Vector DB  | FAISS                  |
-| Deployment | Render (suggested)     |
+| Deployment | Render                 |
 
 ---
 
