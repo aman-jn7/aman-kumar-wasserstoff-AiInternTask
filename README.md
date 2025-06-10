@@ -8,17 +8,17 @@ This system allows users to upload multiple documents (PDFs, scanned files), ext
 ## 📁 Project Structure
 
 chatbot_theme_identifier/
-├── backend/
-│ ├── app/
-│ │ ├── api/ # FastAPI routes
-│ │ ├── core/ # FAISS vector search logic
-│ │ ├── services/ # OCR & LLM query handling
-│ │ └── main.py # FastAPI app entry point
-│ ├── .env # API keys (excluded from Git)
-│ └── requirements.txt
-├── frontend/
-│ └── streamlit_app.py # Streamlit UI
-├── README.md
+- ├── backend/
+- │ ├── app/
+- │ │ ├── api/ # FastAPI routes
+- │ │ ├── core/ # FAISS vector search logic
+- │ │ ├── services/ # OCR & LLM query handling
+- │ │ └── main.py # FastAPI app entry point
+- │ ├── .env # API keys (excluded from Git)
+- │ └── requirements.txt
+- ├── frontend/
+- │ └── streamlit_app.py # Streamlit UI
+- ├── README.md
 
 ## 🚀 Features
 
