@@ -15,7 +15,7 @@ This system allows users to upload multiple documents (PDFs, scanned files), ext
 - │ │ └── main.py
 - │ ├── .env (excluded from Git)
 - │ └── requirements.txt
-- ├── frontend_ui/
+- ├── frontend/
 - │ └── streamlit_app.py
 - ├── README.md
 
