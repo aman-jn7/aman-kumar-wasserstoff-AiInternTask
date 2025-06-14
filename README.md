@@ -37,7 +37,7 @@ This system allows users to upload multiple documents (PDFs, scanned files), ext
 
 | Layer      | Technology            |
 |------------|------------------------|
-| LLM        | Gemini Pro / Flash     |
+| LLM        | Gemini 2.0 Flash       |
 | OCR        | Tesseract + OpenCV     |
 | Backend    | FastAPI (Python)       |
 | Frontend   | Streamlit              |
