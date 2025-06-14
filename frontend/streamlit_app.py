@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-st.title("Wasserstoff Gen-AI Chatbot")
+st.title("Gen-AI Chatbot")
 
 # Section for uploading documents
 st.subheader("Upload Documents")
@@ -11,8 +11,6 @@ uploaded_files = st.file_uploader(
     accept_multiple_files=True
 )
 
-API_URL = "https://backend-iyoa.onrender.com"
-
 # If files are uploaded by the user
 if uploaded_files:
     with st.spinner("Uploading files..."):
@@ -20,7 +18,7 @@ if uploaded_files:
         files = [("files", (f.name, f.read(), "application/pdf")) for f in uploaded_files]
 
         # Send POST request to backend API to upload and process files
-        res = requests.post(f"{API_URL}/upload/", files=files)
+        res = requests.post("http://127.0.0.1:8000/upload/", files=files)
 
         # Check if upload and processing was successful
         if res.status_code == 200:
@@ -40,7 +38,7 @@ question = st.text_input("Enter your question")  # Input field for user's questi
 if st.button("Ask"):
     with st.spinner("Fetching answer..."):
         # Send the user's question to the backend API
-        res = requests.post(f"{API_URL}/ask/", params={"query": question})
+        res = requests.post("http://127.0.0.1:8000/ask/", params={"query": question})
 
         # If response is successful, display the answer
         if res.status_code == 200:
