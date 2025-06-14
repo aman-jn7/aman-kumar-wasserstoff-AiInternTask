@@ -1,4 +1,4 @@
-# Wasserstoff Gen-AI Document Research & Theme Identification Chatbot
+# Gen-AI Document Research & Theme Identification Chatbot
 
 A web-based chatbot application built as part of the Wasserstoff Gen-AI Internship Task.  
 This system allows users to upload multiple documents (PDFs, scanned files), extract information, and get AI-generated answers and synthesized themes based on document content.
